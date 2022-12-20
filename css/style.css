@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -7,6 +11,9 @@ nav{
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav a{
@@ -24,7 +31,7 @@ nav a{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    height: 50vh;
+    height: 70vh;
 }
 
 #home h1{
@@ -45,4 +52,113 @@ nav a{
 
 .auto-type{
     color: darkgoldenrod;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+#about header{
+    margin: 10vh;
+}
+
+#about h3{
+    font-size: 40px;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#about h4{
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    width: 70vw;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 15vw;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+.info{
+    width: 60%;
+}
+
+.info h5{
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#about .card .info h4{
+    font-size: 20px;
+    color: darkgoldenrod;
+    padding: 15px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.info p{
+    text-align: justify;
+    font-family: 'Lucida Sans', sans-serif;
+    line-height: 35px;
+}
+
+.info a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', sans-serif;
+    color: darkgoldenrod;
+}
+
+.name_mail{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#skills{
+    background-color: whitesmoke;
+    padding-top: 1px;
+}
+
+#skills header{
+    margin: 10vh;
+}
+
+#skills h3{
+    font-size: 40px;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#skills p{
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 0;
+    margin: 15px 0px;
+}
+
+.skillcards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillcards div{
+    background-color: white;
+    width: 20vh;
+    height: 20vh;
 }
