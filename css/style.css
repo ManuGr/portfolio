@@ -11,9 +11,11 @@ nav{
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
 }
 
 nav a{
@@ -135,7 +137,8 @@ nav a{
     flex-direction: column;
     background-color: whitesmoke;
     padding-top: 1px;
-    height: 70vh;
+    padding-bottom: 10vh;
+    height: auto;
 }
 
 #skills header{
@@ -190,6 +193,37 @@ nav a{
     font-family: 'Lucida Sans', sans-serif;
     text-align: center;
     font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+#cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #1e1e1e;
+}
+
+#cta p{
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: darkgoldenrod;
+}
+
+#cta button{
+    border: none;
+    border-radius: 35px;
+    background-color: darkgoldenrod;
+    height: 60px;
+    padding: 0px 30px;
+    margin: 0;
+}
+
+#cta button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
     padding: 0;
     margin: 0;
 }
