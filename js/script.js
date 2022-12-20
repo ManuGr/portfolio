@@ -1,9 +1,7 @@
-import Typed from 'typed.js';
-
 var options = {
-    strings: ['Fullstack Web Developer', 'Freelancer'],
-    typeSpeed: 150,
-    backSpeed: 150,
+    strings: ['Fullstack Web Developer', 'Freelancer', 'Gamer'],
+    typeSpeed: 45,
+    backSpeed: 30,
     loop: true
 }
 
