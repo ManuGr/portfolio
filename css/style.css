@@ -21,7 +21,7 @@ nav{
 nav a{
     text-decoration: none;
     font-family: 'Lucida Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: darkkhaki;
     padding: 8px;
 }
@@ -63,7 +63,7 @@ nav a{
     padding: 10vh;
 }
 
-#about h3{
+section h3{
     font-size: 40px;
     font-family: 'Lucida Sans', sans-serif;
     padding: 0;
@@ -137,20 +137,8 @@ nav a{
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    padding-top: 1px;
-    padding-bottom: 10vh;
+    padding: 10vh;
     height: auto;
-}
-
-#skills header{
-    margin: 10vh;
-}
-
-#skills h3{
-    font-size: 40px;
-    font-family: 'Lucida Sans', sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
 #skills p{
@@ -165,6 +153,7 @@ nav a{
     flex-flow: row wrap;
     width: 80%;
     align-self: center;
+    margin-top: 10vh;
 }
 
 .skillcards article{
@@ -231,4 +220,39 @@ nav a{
     font-size: 20px;
     padding: 0;
     margin: 0;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10vh;
+    height: auto;
+}
+
+#projects p{
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 0;
+    margin: 15px 0px;
+}
+
+.projectcards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 80vw;
+    height: auto;
+}
+
+.projectcards a{
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+
+.projectcards a img{
+    max-width: 350px;
+    width: auto;
+    height: auto;
 }
