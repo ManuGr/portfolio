@@ -59,11 +59,8 @@ nav a{
 #about{
     display: flex;
     flex-direction: column;
-    padding-bottom: 5vh;
-}
-
-#about header{
-    margin: 10vh;
+    height: auto;
+    padding: 10vh;
 }
 
 #about h3{
@@ -85,14 +82,18 @@ nav a{
     width: 70vw;
     align-self: center;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
 .card img{
-    width: 15vw;
-    border: 2px solid #000;
+    max-width: 250px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid gray;
     padding: 3px;
+    float: left;
 }
 
 .info{
@@ -161,6 +162,7 @@ nav a{
 .skillcards{
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
     width: 80%;
     align-self: center;
 }
@@ -171,7 +173,9 @@ nav a{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 15%;
+    max-width: 300px;
+    width: auto;
+    height: auto;
     border: 2px dashed gray;
 }
 
@@ -215,8 +219,9 @@ nav a{
     border: none;
     border-radius: 35px;
     background-color: darkgoldenrod;
-    height: 60px;
-    padding: 0px 30px;
+    max-height: 150px;
+    height: auto;
+    padding: 15px 30px;
     margin: 0;
 }
 
